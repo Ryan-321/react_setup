@@ -1,6 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-const Hello = () => <h1>Hello World!</h1>
+const App = () => (
+  <div className='app'>
+    <div className='landing'>
+      <h1>spotsit</h1>
+      <input type='text' placeholder='search' />
+    </div>
+  </div>
+)
 
-render(Hello, document.getElementById('app'))
+render(<App />, document.getElementById('app'))
