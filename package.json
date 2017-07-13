@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "lint": "eslint **/*.{js,jsx} --quiet"
+    "lint": "eslint **/*.{js,jsx} --quiet",
+    "dev": "webpack-dev-server"
   },
   "author": "Ryan Kahle <jrkahle@hotmail.com>",
   "license": "ISC",

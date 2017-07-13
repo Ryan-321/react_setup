@@ -8,6 +8,7 @@ A starter package for building react apps.  Look at the package.json to see the 
     * dev-server
     * eslint-loader
     * babel-loader
+    * css-loader && style-loader
   - babel
     * using 'env' targeting last two browser versions
     * turns modules off so webpack can handle it
